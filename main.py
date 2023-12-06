@@ -180,7 +180,7 @@ def TakeImages():
     Id = (txt.get())
     name = (txt2.get())
     position = (txt3.get())
-    if ((name.isalpha() and position.isalpha()) or (' ' in (name and position))):
+    if ((name.isalpha() and position.isalpha()) or (' ' in name and ' ' in position)):
         cam = cv2.VideoCapture(0)
         harcascadePath = "haarcascade_frontalface_default.xml"
         detector = cv2.CascadeClassifier(harcascadePath)
@@ -214,9 +214,8 @@ def TakeImages():
         csvFile.close()
         message1.configure(text=res)
     else:
-        if ((name.isalpha() or position.isalpha()) == False):
-            res = "Vui lòng nhập đúng tên"
-            message.configure(text=res)
+        res = "Vui lòng nhập đúng tên"
+        message.configure(text=res)
 
 
 ########################################################################################
