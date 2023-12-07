@@ -6,9 +6,9 @@ Dự án này sử dụng ngôn ngữ Python, nhận diện khuôn mặt bằng 
 pip install -r requirements.txt
 ```
 - Chạy tệp main.py ```python main.py```, sau đó sẽ hiện ra giao diện sau:
-<picture>
-![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/629e0efe-05d3-4af7-b75a-09eae1db7664)
-</picture>
+  <picture>
+  ![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/629e0efe-05d3-4af7-b75a-09eae1db7664)
+  </picture>
 
 - Nhập ID, tên, chức vụ tương ứng và nhấn nút "Chụp ảnh". Dự án này sử dụng thuật toán Haar Cascade để phát hiện khuôn mặt. Sau khi nhấn nút sẽ hiện ra một khung camera để thu thập dữ liệu khuôn mặt. Camera sẽ chụp lại 30 tấm hình và lưu vào folder "TrainingImage".
 
