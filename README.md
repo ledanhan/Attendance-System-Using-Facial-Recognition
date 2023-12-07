@@ -16,9 +16,6 @@ pip install -r requirements.txt
   </picture> 
 
 - Sau khi giao diện hiện thông báo "Ảnh đã được chụp cho ID:  " thì nhấp vào nút "Lưu thông tin" để lưu lại thông tin cá nhân phục vụ cho việc chấm công. Trước khi có thể lưu thông tin, hệ thống hiện ra một cửa sổ nhập mật khẩu nhằm tăng độ bảo mật.
-  <picture>
-  ![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/5eab83f7-33d4-4c33-a706-ffd95d60f8bf)
-  </picture> 
 
 - Chấm công: sau khi nhấp vào nút "Chấm công", hệ thống sẽ mở ra một khung camera để nhận diện khuôn mặt của người chấm công và thực hiện việc chấm công cho người đó. Nhấn phím "q" để tắt khung camera chấm công.
   
