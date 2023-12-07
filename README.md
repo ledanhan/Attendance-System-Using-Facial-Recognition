@@ -6,7 +6,6 @@ Dự án này sử dụng ngôn ngữ Python, nhận diện khuôn mặt bằng 
 pip install -r requirements.txt
 ```
 - Chạy tệp main.py ```python main.py```, sau đó sẽ hiện ra giao diện sau:
-
 <picture>
 ![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/bbd2b877-1b8c-40ec-9d54-2e8e1f102dd4)
 </picture> 
