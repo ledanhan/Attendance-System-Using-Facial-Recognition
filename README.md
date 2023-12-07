@@ -12,8 +12,6 @@ pip install -r requirements.txt
 ">
   <source media="(prefers-color-scheme: light)" srcset="![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/b8193fd4-59e9-4231-8ee0-06cd7bae4150)
 ">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/5e2da031-ec71-4ea9-8def-c3a08e06a38b)
-">
 </picture>
 
 - Nhập ID, tên, chức vụ tương ứng và nhấn nút "Chụp ảnh". Dự án này sử dụng thuật toán Haar Cascade để phát hiện khuôn mặt. Sau khi nhấn nút sẽ hiện ra một khung camera để thu thập dữ liệu khuôn mặt. Camera sẽ chụp lại 30 tấm hình và lưu vào folder "TrainingImage".
