@@ -11,9 +11,6 @@ pip install -r requirements.txt
 </picture>
 
 - Nhập ID, tên, chức vụ tương ứng và nhấn nút "Chụp ảnh". Dự án này sử dụng thuật toán Haar Cascade để phát hiện khuôn mặt. Sau khi nhấn nút sẽ hiện ra một khung camera để thu thập dữ liệu khuôn mặt. Camera sẽ chụp lại 30 tấm hình và lưu vào folder "TrainingImage".
-  <picture>
-  ![image](https://github.com/ledanhan/Attendance-System-Using-Facial-Recognition/assets/111650057/27f1d1cc-378c-429a-9610-71d74c3b8e42)
-  </picture> 
 
 - Sau khi giao diện hiện thông báo "Ảnh đã được chụp cho ID:  " thì nhấp vào nút "Lưu thông tin" để lưu lại thông tin cá nhân phục vụ cho việc chấm công. Trước khi có thể lưu thông tin, hệ thống hiện ra một cửa sổ nhập mật khẩu nhằm tăng độ bảo mật.
 
